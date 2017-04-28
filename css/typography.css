@@ -1,15 +1,41 @@
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 16px;
   font-weight: 300;
   font-style: normal;
   line-height: 1.42;
 }
+p {
+  margin-left: 10px;
+  }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: 'Ek Mukta', sans-serif;
+  font-size: 30px;
   font-weight: 500;
   font-style: normal;
   line-height: 1.42;
+}
+
+li{
+  font-family: 'Ek Mukta', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  font-style: inherit;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  margin: 0;
+  color: rgb(230,88,0);
+}
+
+.intro {
+  padding-top: 1rem;
+  margin-top: 2rem;
+  margin-left: 30px;
 }

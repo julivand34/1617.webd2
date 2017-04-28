@@ -1,28 +1,73 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 html, body {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
   width: 100vw;
   height: 100vh;
-  overflow: hidden;
-  background: rgba(26,35,126 ,1) url('../assets/images/home.jpg') no-repeat center center fixed;
+  overflow: scroll;
+  background:url(../_img/gold.jpg) center center fixed;
+  background-blend-mode: lighten;
   background-size: cover;
-
-  color: rgba(232,234,246 ,1);
+  color: black;
 }
 
-.intro {
-  width: 90vw;
+nav.mainnav ul {
+  list-style-type: none;
+}
+nav.mainnav li {
+  float: left;
+  padding: 0;
+  background-color: #FFF;
+  width: 20%;
+  margin: 0;
+  margin-bottom: 30px
+}
+nav.mainnav li a {
+  display:block;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+  background-color: black;
+  color: white
+}
 
-  padding: 1rem;
-  margin-top: 1rem;
+nav.mainnav li a:hover {
+  background: gold url(../_img/gold.jpeg)center center;
+  color: black;
+}
 
-  background: rgba(41,182,246 ,1);
-  color: rgba(1,87,155 ,1);
+a:hover {
+  color: black;
+}
+.footer-wrapper {
+  display: block;
+  color: white;
+  background-color: rgb(230,88,0);
+
+}
+.footer-wrapper a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+a.company_logo {
+  display:block; /* eerst van de a een block-element maken */
+  width: 150px;
+  height:79px;
+  /* background*/
+  background-image: url(../_img/logogold.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: auto 100%;
+  /* magic: tekst laten verdwijnen, door deze naar links op te schuiven */
+  overflow:hidden;
+  text-indent:-900px;
 }
