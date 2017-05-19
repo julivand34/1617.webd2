@@ -1,3 +1,3 @@
 ;(function() {
-  alert('Ello Elien! Welcome on this gold webpage, have a nice day queen!');
+  alert('Welkom bij Gold Design! Klik op OK om door te gaan naar onze website.');
 })();
