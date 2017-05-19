@@ -450,18 +450,19 @@ nav.icon li a {
 
 
 .form {
-  margin:auto;
+  margin: auto;
   border: none;
+
 }
 
 
 input[type=text] {
     width: 40%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 5px 0;
     box-sizing: border-box;
     border: none;
-    background-color: black;
+    background-color: rgb(230,88,0);
     color: white;
     outline: none;
     }
@@ -476,10 +477,31 @@ input[type=text]:focus {
   height: 200px;
 }
 
+.message[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: rgb(230,88,0);
+    color: white;
+    outline: none;
+    }
+.message[type=text]:focus {
+    background: url(../img/gold.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+}
 
 
 
-
+.message[type=text]:disabled {
+    background: url(../img/gold.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+}
 
 
 
