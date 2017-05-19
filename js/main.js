@@ -1,3 +1,3 @@
 ;(function() {
-  alert('Hey elien! druk gewoon op ok :-p');
+  alert('Ello Elien! Welcome on the gold webpage, have a nice day queen!');
 })();
