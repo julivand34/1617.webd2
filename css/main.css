@@ -13,11 +13,12 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: scroll;
-  background:url(../_img/gold.jpg) center center fixed;
+  background:url(../img/gold.jpg) center center fixed;
   background-blend-mode: lighten;
   background-size: cover;
   color: black;
 }
+
 
 nav.mainnav ul {
   list-style-type: none;
@@ -28,7 +29,7 @@ nav.mainnav li {
   background-color: #FFF;
   width: 20%;
   margin: 0;
-  margin-bottom: 30px
+  margin-bottom: 100px;
 }
 nav.mainnav li a {
   display:block;
@@ -36,23 +37,34 @@ nav.mainnav li a {
   padding: 20px 0;
   text-align: center;
   background-color: black;
-  color: white
+  color: white;
 }
 
 nav.mainnav li a:hover {
-  background: gold url(../_img/gold.jpeg)center center;
+  background: gold url(../img/gold.jpeg)center center;
+  background-size: 300%;
   color: black;
+   transition-duration: 0.2s;
+   padding: 21px;
 }
 
 a:hover {
   color: black;
 }
+
 .footer-wrapper {
   display: block;
   color: white;
+  padding-bottom: 10px;  
   background-color: rgb(230,88,0);
-
 }
+
+.footer-top {
+    margin-top: 300px;
+}
+
+
+
 .footer-wrapper a:hover {
   text-decoration: underline;
   color: white;
@@ -60,14 +72,406 @@ a:hover {
 
 a.company_logo {
   display:block; /* eerst van de a een block-element maken */
-  width: 150px;
-  height:79px;
+  width: 190px;
+  height:65px;
+  margin-left: 25px;
   /* background*/
-  background-image: url(../_img/logogold.png);
+  background-image: url(../img/goldheader.png);
   background-repeat: no-repeat;
   background-position: 0 0;
-  background-size: auto 100%;
+  background-size: auto 97%;
   /* magic: tekst laten verdwijnen, door deze naar links op te schuiven */
   overflow:hidden;
   text-indent:-900px;
+}
+
+.overlay {
+  margin-left: 37px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(../img/gold-hover.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: auto 97%;
+  overflow: hidden;
+  width: 0 ;
+  height: 65px;
+  transition: 1.5s ease;
+  overflow: hidden;
+  text-indent:-900px;
+}
+
+.hoverdiv:hover .overlay {
+  width: 100%;
+}
+
+
+
+nav.subnav ul {
+  list-style-type: none;
+}
+
+
+nav.subnav li {
+  float: right;
+  padding: 10px;
+  background-color: #FFF;
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+nav.subnav li a {
+  display:block;
+  width: 100%;
+  padding: 0px 0;
+  text-align: center;
+  background-color: black;
+  color: white
+}
+
+nav.subnav li a:hover {
+  background: gold url(../img/gold.jpeg)no-repeat;
+  background-size: 100%;
+  color: black;
+}
+
+
+
+/*mail*/
+a.mail {
+  display:block; /* eerst van de a een block-element maken */
+  height:30px;
+  width:39px;
+      /* background*/
+  background-image: url(../img/mail.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% auto;
+      /* magic: tekst laten verdwijnen, door deze naar links op te schuiven */
+  overflow:hidden;
+  text-indent:-900px;
+}
+.mail:hover{
+  background-size: 98%;
+  }
+
+/*facebook*/
+
+a.facebook {
+  display:block; /* eerst van de a een block-element maken */
+  height:30px;
+  width:30px;
+  /* background*/
+  background-image: url(../img/facebook.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% auto;
+  /* magic: tekst laten verdwijnen, door deze naar links op te schuiven */
+  overflow:hidden;
+  text-indent:-900px;
+}
+.facebook:hover{
+background-size: 98%;
+  }
+  /*facebook-wit*/
+a.facebook-wit {
+  display:block; /* eerst van de a een block-element maken */
+  height:30px;
+  width:30px;
+    /* background*/
+  background-image: url(../img/facebook-wit.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% auto;
+    /* magic: tekst laten verdwijnen, door deze naar links op te schuiven */
+  overflow:hidden;
+  text-indent:-900px;
+}
+.facebook-wit:hover{
+  background-size: 98%;
+  }
+/*instagram*/
+a.insta {
+  display:block; /* eerst van de a een block-element maken */
+  height:30px;
+  width:30px;
+    /* background*/
+  background-image: url(../img/insta.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% auto;
+    /* magic: tekst laten verdwijnen, door deze naar links op te schuiven */
+  overflow:hidden;
+  text-indent:-900px;
+}
+.insta:hover{
+background-size: 98%;
+  }
+
+/*twitter*/
+a.twitter {
+  display:block; /* eerst van de a een block-element maken */
+  height:30px;
+  width:30px;
+      /* background*/
+  background-image: url(../img/twitter.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% auto;
+      /* magic: tekst laten verdwijnen, door deze naar links op te schuiven */
+  overflow:hidden;
+  text-indent:-900px;
+  background-color: white;
+}
+.twitter:hover{
+background-size: 98%;
+  }
+
+/*twitter-wit*/
+a.twitter-wit {
+  display:block; /* eerst van de a een block-element maken */
+  height:30px;
+  width:30px;
+      /* background*/
+  background-image: url(../img/twitter-wit.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% auto;
+      /* magic: tekst laten verdwijnen, door deze naar links op te schuiven */
+  overflow:hidden;
+  text-indent:-900px;
+}
+.twitter-wit:hover{
+background-size: 98%;
+  }
+
+
+/*opgelet!!! hier staat icon met s!!*/
+.icons {
+  display: block;
+  background-size: auto 50px;
+  padding: 20px;
+
+  }
+
+nav.icons ul {
+  list-style-type: none;
+}
+
+nav.icons li {
+  float: left;
+  padding: 0;
+  width: 25%;
+  margin: 10;
+  margin-bottom: 20px
+}
+nav.icons li a {
+  display:block;
+  padding: 0px 0;
+}
+
+/*opgelet!!! hier staat icon zonder s!!*/
+
+.icon {
+  display: block;
+  background-size: auto 50px;
+  padding: 20px;
+
+  }
+
+nav.icon ul {
+  list-style-type: none;
+}
+
+nav.icon li {
+  float: left;
+  padding: 0;
+  width: 5%;
+  margin: 10;
+  margin-bottom: 20px
+}
+nav.icon li a {
+  display:block;
+  padding: 0px 0;
+}
+
+.logo {
+  width: 40%;
+  margin-bottom:40px;
+  transition: 1s;
+}
+.logo:hover {
+      width: 41%;
+      transition: 1s;
+}
+
+.julie {
+  position: relative;
+  display:block;
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: url(../img/julie.jpg);
+  background-size: 150%;
+  background-position: -20px -40px;
+  background-repeat: no-repeat;
+  margin: 20px;
+}
+
+.elien {
+   position: relative;
+  display:block;
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: url(../img/elien.jpg);
+  background-size: 300%;
+  background-position: -140px 00px;
+  background-repeat: no-repeat;
+  margin: 20px;
+
+}
+
+.raquel {
+   position: relative;
+  display:block;
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: url(../img/raquel.jpg);
+  background-size: 300%;
+  background-position: -150px -40px;
+  background-repeat: no-repeat;
+  margin: 20px;
+}
+
+.manou {
+  position: relative;
+  display:block;
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: url(../img/manou.jpg);
+  background-size: 150%;
+  background-position: -20px -40px;
+  background-repeat: no-repeat;
+  margin: 20px;
+}
+
+.align {
+  position: relative;
+  display: block;
+  float:right;
+  text-align: left;
+} 
+
+.posfixed {
+  position: fixed;
+}
+
+
+.amnesty {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  background: white url(../img/amnesty.jpg);
+  background-size: 300%;
+  background-repeat: no-repeat;
+}
+
+.amnesty:hover {
+  background-size: 80%;
+  transition: 0.4s;
+  background-position: center;
+}
+
+.vdw {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  background: white url(../img/logo.png);
+  background-size: 170%;
+  background-repeat: no-repeat;
+  background-position-x: -70px;
+  background-position-y: 60px;
+}
+
+.vdw:hover {
+  background-size: 100%;
+  transition: 0.5s;
+  background-position: center;
+}
+
+
+.bmx {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  background: white url(../img/bmx.png);
+  background-size: 180%;
+  background-repeat: no-repeat;
+  background-position-x: -200px;
+  background-position-y: -200px;
+
+}
+
+.bmx:hover {
+  background-size: 80%;
+  transition: 0.5s;
+  background-position: center;
+}
+
+.fest {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  background: white url(../img/cover.png);
+  background-size: 200%;
+  background-repeat: no-repeat;
+  background-position-x: -200px;
+  background-position-y: -180px;
+
+}
+
+.fest:hover {
+  background-size: 80%;
+  transition: 0.5s;
+  background-position: center;
+}
+
+.border
+{
+  padding: 1px;
+  background-color: rgb(230,88,0);
+
+}
+
+
+.form {
+  margin:auto;
+  border: none;
+}
+
+
+input[type=text] {
+    width: 40%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: black;
+    color: white;
+    outline: none;
+    }
+input[type=text]:focus {
+    background: url(../img/gold.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.message {
+  height: 200px;
 }

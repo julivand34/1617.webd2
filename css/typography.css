@@ -1,12 +1,14 @@
 body {
   font-family: 'Raleway', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 300;
   font-style: normal;
   line-height: 1.42;
+  text-align: center;
 }
 p {
   margin-left: 10px;
+  text-align: center;
   }
 
 h1, h2, h3, h4, h5, h6 {
@@ -19,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 
 li{
   font-family: 'Ek Mukta', sans-serif;
-  font-size: 28px;
+  font-size: 16px;
   font-weight: 300;
   font-style: inherit;
 }
@@ -38,4 +40,62 @@ h1 {
   padding-top: 1rem;
   margin-top: 2rem;
   margin-left: 30px;
+}
+
+nav.subnav li a {
+  font-family: 'Ek Mukta', sans-serif;
+  font-size: 18px;
+  font-weight: 10;
+  font-style: inherit;
+}
+
+a.link {
+color: rgb(230,88,0);
+text-decoration: underline;
+font-weight: 600;
+}
+a.link:hover{
+  color: goldenrod
+}
+
+.grey {
+  color: grey;
+}
+
+.black {
+  color: black;
+  font-family: 'Ek Mukta', sans-serif;
+  font-size: 25px;
+
+}
+.tussentitel {
+  font-family: 'Comfortaa', bold, sans-serif;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 120px;
+  color: black;
+  font-weight: bold;
+}
+
+.important {
+  font-family: 'Comfortaa', bold, sans-serif;
+  font-size: 18px;
+  text-align: left;
+  color: rgb(230,88,0);
+  font-weight: bold;
+  margin-bottom:30px;
+}
+
+.left-align {
+  display:block;
+  text-align:left;
+  padding-left: 120px;
+}
+
+
+::placeholder {
+  color: white;
+
+  
 }

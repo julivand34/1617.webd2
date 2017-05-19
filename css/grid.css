@@ -35,6 +35,25 @@
     clear: both;
 }
 
+
+
+
+
+/*definitie voor margins (tekst)
+--------------------------------------- */
+.grid__topmargin-1 { margin-top: 10px; }
+.grid__topmargin-2 { margin-top: 20px; }
+.grid__topmargin-3 { margin-top: 30px; }
+.grid__topmargin-4 { margin-top: 40px; }
+.grid__topmargin-5 { margin-top: 50px; }
+
+
+
+
+
+
+
+
 /* Definitie voor de kolommen
 --------------------------------------- */
 
