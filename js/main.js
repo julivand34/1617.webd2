@@ -1,3 +1,3 @@
 ;(function() {
-  alert('Welcome to the GDM Web Template developed by drdynscript!');
+  alert('Hey elien! druk gewoon op ok :-p');
 })();
