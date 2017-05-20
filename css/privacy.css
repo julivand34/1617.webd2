@@ -1,0 +1,209 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: scroll;
+  background:url(../img/gold.jpg) center center fixed;
+  background-blend-mode: lighten;
+  background-size: cover;
+  color: black;
+  position: relative;
+  display: block;
+  float:left;
+  text-align: left;
+}
+
+
+
+
+
+
+/* LOGO BOVENAAN */
+
+a:hover {
+  color: black;
+}
+
+.footer-wrapper {
+  display: block;
+  color: white;
+  padding-bottom: 10px;  
+  background-color: rgb(230,88,0);
+}
+
+.footer-top {
+    margin-top: 300px;
+}
+
+.footer-wrapper a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+a.company_logo {
+  display:block;
+  width: 190px;
+  height:65px;
+  margin-left: 25px;
+  background-image: url(../img/goldheader.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: auto 97%;
+  overflow:hidden;
+  text-indent:-900px;
+}
+
+.overlay {
+  display: block;
+  width: 0 ;
+  height: 65px;
+  margin-left: 37px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(../img/gold-hover.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: auto 97%;
+  overflow: hidden;
+
+  transition: 1.5s ease;
+  overflow: hidden;
+  text-indent:-900px;
+}
+
+.hoverdiv:hover .overlay {
+  width: 100%;
+}
+/* EINDE LOGO */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BEGIN CSS VAN TEKST*/
+
+
+
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  line-height: 1.42;
+  text-align: left;
+  overflow: scroll;
+ 
+
+}
+
+
+p {
+margin-left: 30px;
+}
+
+h1 {
+color: rgb(230,88,0);
+margin: 0;
+margin-left: 30px;
+margin-bottom: 15px;
+font-family: 'Comfortaa', sans-serif; 
+font-size: 46px; 
+font-weight: 100; 
+line-height: 60px; 
+border-bottom: solid rgb(230,88,0); 
+}
+
+
+
+
+h2 {
+font-weight: bold;
+color: rgb(230,88,0);
+margin-left: 30px;
+}
+
+h3 {
+margin-left: 30px;
+
+}
+
+a.link {
+color: black;
+text-decoration: none;
+font-weight: 600;
+margin-left: 30px;
+}
+a.link:hover{
+  color: rgb(230,88,0);
+}
+
+
+
+
+/*TERUGKNOP*/
+
+.hoverdiv:hover .overlay {
+  width: 100%;
+}
+
+nav.subnav ul {
+  list-style-type: none;
+}
+
+nav.subnav li {
+  float: right;
+  background-color: #FFF;
+  width: 50%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+nav.subnav li a {
+  padding: 30px;
+  display:block;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  
+  font-style: inherit;
+}
+
+nav.subnav li a:hover {
+  background: gold url(../img/gold.jpeg)no-repeat;
+  background-size: 100%;
+  color: black;
+}
+
+
+li{
+  font-size: 16px;
+  font-weight: 300;
+  font-style: inherit;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
