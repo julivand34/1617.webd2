@@ -13,7 +13,7 @@ body {
   width: 100vw;
   height: 100vh;
   overflow: scroll;
-  background:url(../img/gold.jpg) center center fixed;
+  background:url(../assets/img/gold.jpg) center center fixed;
   background-blend-mode: lighten;
   background-size: cover;
   color: black;
@@ -41,7 +41,7 @@ nav.mainnav li a {
 }
 
 nav.mainnav li a:hover {
-  background: gold url(../img/gold.jpeg)center center;
+  background: gold url(../assets/img/gold.jpeg)center center;
   background-size: 300%;
   color: black;
    transition-duration: 0.2s;
@@ -76,7 +76,7 @@ a.company_logo {
   height:65px;
   margin-left: 25px;
   /* background*/
-  background-image: url(../img/goldheader.png);
+  background-image: url(../assets/img/goldheader.png);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: auto 97%;
@@ -91,7 +91,7 @@ a.company_logo {
   bottom: 0;
   left: 0;
   right: 0;
-  background-image: url(../img/gold-hover.png);
+  background-image: url(../assets/img/gold-hover.png);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: auto 97%;
@@ -132,7 +132,7 @@ nav.subnav li a {
 }
 
 nav.subnav li a:hover {
-  background: gold url(../img/gold.jpeg)no-repeat;
+  background: gold url(../assets/img/gold.jpeg)no-repeat;
   background-size: 100%;
   color: black;
 }
@@ -145,7 +145,7 @@ a.mail {
   height:30px;
   width:39px;
       /* background*/
-  background-image: url(../img/mail.png);
+  background-image: url(../assets/img/mail.png);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 100% auto;
@@ -164,7 +164,7 @@ a.facebook {
   height:30px;
   width:30px;
   /* background*/
-  background-image: url(../img/facebook.png);
+  background-image: url(../assets/img/facebook.png);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 100% auto;
@@ -181,7 +181,7 @@ a.facebook-wit {
   height:30px;
   width:30px;
     /* background*/
-  background-image: url(../img/facebook-wit.png);
+  background-image: url(../assets/img/facebook-wit.png);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 100% auto;
@@ -198,7 +198,7 @@ a.insta {
   height:30px;
   width:30px;
     /* background*/
-  background-image: url(../img/insta.png);
+  background-image: url(../assets/img/insta.png);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 100% auto;
@@ -216,7 +216,7 @@ a.twitter {
   height:30px;
   width:30px;
       /* background*/
-  background-image: url(../img/twitter.png);
+  background-image: url(../assets/img/twitter.png);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 100% auto;
@@ -235,7 +235,7 @@ a.twitter-wit {
   height:30px;
   width:30px;
       /* background*/
-  background-image: url(../img/twitter-wit.png);
+  background-image: url(../assets/img/twitter-wit.png);
   background-repeat: no-repeat;
   background-position: 0 0;
   background-size: 100% auto;
@@ -313,7 +313,7 @@ nav.icon li a {
   float: left;
   width: 100px;
   height: 100px;
-  background: url(../img/julie.jpg);
+  background: url(../assets/img/julie.jpg);
   background-size: 150%;
   background-position: -20px -40px;
   background-repeat: no-repeat;
@@ -326,7 +326,7 @@ nav.icon li a {
   float: left;
   width: 100px;
   height: 100px;
-  background: url(../img/elien.jpg);
+  background: url(../assets/img/elien.jpg);
   background-size: 300%;
   background-position: -140px 00px;
   background-repeat: no-repeat;
@@ -340,7 +340,7 @@ nav.icon li a {
   float: left;
   width: 100px;
   height: 100px;
-  background: url(../img/raquel.jpg);
+  background: url(../assets/img/raquel.jpg);
   background-size: 300%;
   background-position: -150px -40px;
   background-repeat: no-repeat;
@@ -353,7 +353,7 @@ nav.icon li a {
   float: left;
   width: 100px;
   height: 100px;
-  background: url(../img/manou.jpg);
+  background: url(../assets/img/manou.jpg);
   background-size: 150%;
   background-position: -20px -40px;
   background-repeat: no-repeat;
@@ -376,7 +376,7 @@ nav.icon li a {
   width: 100%;
   height: 300px;
   padding: 10px;
-  background: white url(../img/amnesty.jpg);
+  background: white url(../assets/img/amnesty.jpg);
   background-size: 300%;
   background-repeat: no-repeat;
 }
@@ -391,7 +391,7 @@ nav.icon li a {
   width: 100%;
   height: 300px;
   padding: 10px;
-  background: white url(../img/logo.png);
+  background: white url(../assets/img/logo.png);
   background-size: 170%;
   background-repeat: no-repeat;
   background-position-x: -70px;
@@ -409,7 +409,7 @@ nav.icon li a {
   width: 100%;
   height: 300px;
   padding: 10px;
-  background: white url(../img/bmx.png);
+  background: white url(../assets/img/bmx.png);
   background-size: 180%;
   background-repeat: no-repeat;
   background-position-x: -200px;
@@ -427,7 +427,7 @@ nav.icon li a {
   width: 100%;
   height: 300px;
   padding: 10px;
-  background: white url(../img/cover.png);
+  background: white url(../assets/img/cover.png);
   background-size: 200%;
   background-repeat: no-repeat;
   background-position-x: -200px;
@@ -467,7 +467,7 @@ input[type=text] {
     outline: none;
     }
 input[type=text]:focus {
-    background: url(../img/gold.jpeg);
+    background: url(../assets/img/gold.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
     color: black;
@@ -488,7 +488,7 @@ input[type=text]:focus {
     outline: none;
     }
 .message[type=text]:focus {
-    background: url(../img/gold.jpeg);
+    background: url(../assets/img/gold.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
     color: black;
@@ -497,7 +497,7 @@ input[type=text]:focus {
 
 
 .message[type=text]:disabled {
-    background: url(../img/gold.jpeg);
+    background: url(../assets/img/gold.jpeg);
     background-size: 100%;
     background-repeat: no-repeat;
     color: black;
